@@ -1,0 +1,17 @@
+VAR
+	Dom : HouseTyp;
+	ControlTyp : USINT;
+	temp1 : BOOL;
+	Skaluj : ARRAY[1..10] OF LCRLimScal;
+	Suwnica : SuwnicaTyp;
+	Maszynastanu : StatemachineTyp;
+(*	Maszynastanu : BOOL;*)
+	DelayON : ARRAY[1..10] OF TON;
+	DelayOF : ARRAY[1..10] OF TOF;
+	fLoadDefaults : BOOL;
+END_VAR
+
+VAR RETAIN
+	(* zmienne zapisywane na flash *)
+	SuwnicaPar : SuwnicaParTyp;	
+END_VAR

@@ -1,0 +1,4 @@
+VAR
+	kasa : kasaTyp;
+	ruch : BOOL; 
+END_VAR
