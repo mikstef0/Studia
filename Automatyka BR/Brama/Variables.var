@@ -1,0 +1,5 @@
+VAR
+	brama : bramaTyp;
+	fStopStart : RS; (* Funkcja start *)
+	fDelayON : TON; (* Deklaracja funkcji zegara TON *)
+END_VAR

@@ -1,0 +1,15 @@
+VAR
+	Napoje : NapojeTyp;
+	fDelayON : ARRAY[0..5] OF TON; (* Deklaracja funkcji zegara TON *)
+	(* 
+	0 - Alarm E01 - blad sluzy
+	1 - Alarm E02 - blad tasmy
+	2 - Alarm E03 - blad napelniania butelek
+	3 - Zegar zapasowy
+	4 - Mruganie dioda
+	5 - Odliczanie czasu wcisniecia przycisków
+	 *)
+	fDelayOFF : TOF; (* Deklaracja funkcji zegara TOF *)
+	Sterowanie : NapojeControlTyp;
+	i : INT;
+END_VAR
