@@ -1,9 +1,0 @@
-400142142k
-
-
-Student 0:
-Student 1:
-Student 2:
- 	  Ocena: 4; Waga: 2;
-Student 3:
- 	  Ocena: 4; Waga: 2;

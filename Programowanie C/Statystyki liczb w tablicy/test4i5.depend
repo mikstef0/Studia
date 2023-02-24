@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1576153441 source:i:\programowanie\20191212\test4i5\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-	<time.h>
-
